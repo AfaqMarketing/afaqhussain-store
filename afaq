@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afaq Hussain's Affiliate Marketing Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .product p {
+            color: #555;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #4CAF50;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .product a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Afaq Hussain's Affiliate Marketing Store</h1>
+        <p>Your one-stop shop for the best Amazon products</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>Welcome to Afaq Hussain's Affiliate Marketing Store. Here you will find a curated selection of top-rated products from Amazon. Enjoy shopping!</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Afaq Hussain. I am passionate about finding the best products on Amazon and sharing them with you. This site is dedicated to bringing you high-quality products through affiliate marketing. I earn a small commission when you purchase products through my links, which helps support this site.</p>
+        </section>
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Product Image">
+                <h2>Product 1</h2>
+                <p>This is a brief description of Product 1. It's an amazing product that you will love.</p>
+                <a href="https://www.amazon.com/dp/B000000000" target="_blank">Buy on Amazon</a>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/300x200" alt="Product Image">
+                <h2>Product 2</h2>
+                <p>This is a brief description of Product 2. It's an amazing product that you will love.</p>
+                <a href="https://www.amazon.com/dp/B000000000" target="_blank">Buy on Amazon</a>
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or suggestions, feel free to reach out to me at <a href="mailto:afaq@example.com">afaq@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Afaq Hussain's Affiliate Marketing Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
